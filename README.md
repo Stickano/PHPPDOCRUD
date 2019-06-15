@@ -23,10 +23,12 @@ As a rule of thumb only the VALUES are being escaped, and **NOT** the COLUMN(s)!
 In the following examples (Create, Read, Update & Delete) all the example-values marked with a start (*) will be escaped.
 
 #### Column & Value Explained
+```
 $sql = "INSERT INTO (col1, col2) VALUES ('value1', 'value2')";
 
                        ^     ^              ^          ^
                      NOT ESCAPED              ESCAPED
+```
 
 
 ## CREATE
