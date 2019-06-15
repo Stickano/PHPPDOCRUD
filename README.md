@@ -24,6 +24,7 @@ In the following examples (Create, Read, Update & Delete) all the example-values
 
 #### Column & Value Explained
 $sql = "INSERT INTO (col1, col2) VALUES ('value1', 'value2')";
+
                        ^     ^              ^          ^
                      NOT ESCAPED              ESCAPED
 
