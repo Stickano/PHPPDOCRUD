@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JKS CRUD PoC</title>
+    <title>PDO CRUD PoC</title>
 </head>
 <body>
 <?php
@@ -10,7 +10,7 @@
     require_once('connection.php');
     require_once('crud.php');
 
-    $conn = new Connection(new Credencials());
+    $conn = new Connection(new Credencials);
     $crud = new Crud($conn);
 
 
